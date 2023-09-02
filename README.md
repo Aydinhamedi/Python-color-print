@@ -29,6 +29,39 @@ This will print 'Hello in green' in green and 'Hello in red' in red.
 The '~*' characters are used as separators for different parts of the string that need to be printed in different colors when using advanced mode.
 
 ## Supported Colors
-The colors that can be used are: 'black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white', and 'normal'. If an invalid color is provided, an error message will be printed.
-
-Please note that this function uses ANSI escape codes for coloring, which may not work on all platforms or console types.
+~~~
+'black': '\x1b[0;30m',
+'red': '\x1b[0;31m',
+'green': '\x1b[0;32m',
+'yellow': '\x1b[0;33m',
+'blue': '\x1b[0;34m',
+'magenta': '\x1b[0;35m',
+'cyan': '\x1b[0;36m',
+'white': '\x1b[0;37m',
+'normal': '\x1b[0m',
+'bg_black': '\x1b[40m',
+'bg_red': '\x1b[41m',
+'bg_green': '\x1b[42m',
+'bg_yellow': '\x1b[43m',
+'bg_blue': '\x1b[44m',
+'bg_magenta': '\x1b[45m',
+'bg_cyan': '\x1b[46m',
+'bg_white': '\x1b[47m',
+'bg_normal': '\x1b[49m',
+'light_gray': '\x1b[0;90m',
+'light_red': '\x1b[0;91m',
+'light_green': '\x1b[0;92m',
+'light_yellow': '\x1b[0;93m',
+'light_blue': '\x1b[0;94m',
+'light_magenta': '\x1b[0;95m',
+'light_cyan': '\x1b[0;96m',
+'light_white': '\x1b[0;97m',
+'bg_light_gray': '\x1b[0;100m',
+'bg_light_red': '\x1b[0;101m',
+'bg_light_green': '\x1b[0;102m',
+'bg_light_yellow': '\x1b[0;103m',
+'bg_light_blue': '\x1b[0;104m',
+'bg_light_magenta': '\x1b[0;105m',
+'bg_light_cyan': '\x1b[0;106m',
+'bg_light_white': '\x1b[0;107m'
+~~~
