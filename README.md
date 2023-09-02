@@ -29,6 +29,7 @@ This will print 'Hello in green' in green and 'Hello in red' in red.
 The '~*' characters are used as separators for different parts of the string that need to be printed in different colors when using advanced mode.
 
 ## Supported Colors
+#### you can use the key word like 'black' and... to set the text color.
 ~~~
 'black': '\x1b[0;30m',
 'red': '\x1b[0;31m',
