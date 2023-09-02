@@ -64,5 +64,8 @@ The '~*' characters are used as separators for different parts of the string tha
 'bg_light_blue': '\x1b[0;104m',
 'bg_light_magenta': '\x1b[0;105m',
 'bg_light_cyan': '\x1b[0;106m',
-'bg_light_white': '\x1b[0;107m'
+'bg_light_white': '\x1b[0;107m',
+'underline': '\x1b[4m',
+'bold': '\x1b[1m',
+'blink': '\x1b[5m'
 ~~~
